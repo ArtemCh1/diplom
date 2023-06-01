@@ -1,0 +1,97 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+body{
+	padding: 0px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background: url('../img/blue\ minimalistic\ vintage\ patterns\ textures\ texture\ 2560x1600\ wallpaper_www.wallpaperhi.com_97.jpg') 0 0/100% no-repeat; 
+}
+
+
+.header {
+	border: 1px solid black;
+	border-radius: 15px;
+	background: #02223f;
+	box-shadow: 10px 10px 10px black;/* добавляю тень */
+	font-weight: 700; /* Толщина текста */
+	font-size: 35px; /* Размер шрифта.*/
+	color: red;
+	max-width: 1600px;/*Ширина*/
+	height: 70px;/*Высота*/
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 0px 10px;
+	
+}
+
+.block_1 {
+	display: flex;
+}
+
+.indoor_unit {
+	border: 1px solid black;
+	background: white;
+	border-radius: 15px;
+	font-size: 18px; /* Размер шрифта.*/
+	line-height: 50px; /*Устанавливает межстрочный интервал текста. Широко применяется при верстке текста.*/
+	font-weight: 700; /* Толщина текста */
+	max-width: 990px;/*Ширина*/
+	height: 550px;/*Высота*/
+	margin: 50px 2px 2px 2px;
+	padding: 10px;
+	display: inline-block;
+}
+
+.block_2 {
+	border: 1px solid black;
+	border-radius: 15px;
+	background: rgb(67, 66, 66);
+	box-shadow: 10px 10px 10px black;/* добавляю тень */
+	font-size: 18px; /* Размер шрифта.*/
+	line-height: 50px; /*Устанавливает межстрочный интервал текста. Широко применяется при верстке текста.*/
+	font-weight: 700; /* Толщина текста */
+	max-width: 870px;/*Ширина*/
+	height: 900px;/*Высота*/
+	margin: 10px 2px 2px 20px;
+	padding: 10px;
+	display: inline-block;
+}
+
+.textinput {
+	border: 1px solid #666;
+	padding: 0px 15px;
+	font-size: 18px;
+	margin: 10px;
+}
+.block_3 {
+	border: 1px solid black;
+	border-radius: 15px;
+	background: white;
+	box-shadow: 10px 10px 10px black;/* добавляю тень */
+	font-size: 18px; /* Размер шрифта.*/
+	line-height: 50px; /*Устанавливает межстрочный интервал текста. Широко применяется при верстке текста.*/
+	font-weight: 700; /* Толщина текста */
+	max-width: 799px;/*Ширина*/
+	height: 700px;/*Высота*/
+	margin: 10px;
+	padding: 10px;
+}
+.block_4 {
+	border: 5px solid red;
+	background-color: #5e5373;
+	color: #fff;
+}
+
